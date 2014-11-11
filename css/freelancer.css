@@ -443,3 +443,8 @@ footer .footer-below {
     -ms-transform: rotate(90deg);
     transform: rotate(90deg);
 }
+
+.emphasized-name {
+    font-weight: bold;
+    font-style: italic;
+}
