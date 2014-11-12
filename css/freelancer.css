@@ -448,3 +448,18 @@ footer .footer-below {
   font-weight: bold;
   font-style: italic;
 }
+
+.business-type {
+  font-style: italic;
+}
+
+.admin-image {
+  border-radius: 5em;
+  width: 100px;
+  margin-right: 0;
+  border: 2px solid white;
+}
+
+.admin-box {
+  display: -webkit-inline-box;
+}
