@@ -448,3 +448,60 @@ footer .footer-below {
   font-weight: bold;
   font-style: italic;
 }
+
+.business-type {
+  font-style: italic;
+}
+
+.admin-image {
+  border-radius: 5em;
+  width: 100px;
+  margin-right: 0;
+  border: 2px solid white;
+}
+
+.admin-box {
+  display: -webkit-inline-box;
+}
+
+#family-image {
+  padding: 325px 0;
+  background-image: url('http://i.imgur.com/p6PVINa.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+
+#features-and-services ul {
+  padding: 0;
+}
+
+#features-and-services li {
+  list-style-type: none;
+  font-size: 1.2em;
+  margin-bottom: 0.5em;
+}
+
+#location {
+  background-color: aliceblue;
+}
+
+#location hr.star-primary:after {
+  color: #2c3e50;
+  background-color: aliceblue;
+}
+
+#map-image {
+  width: 600px;
+  float: right;
+  border: solid;
+  border-radius: 1em;
+  margin-top: 25px;
+}
+
+.address-details {
+  font-weight: bold;
+  font-size: 2.5em;
+  margin-left: 25px;
+}

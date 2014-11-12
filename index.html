@@ -16,6 +16,7 @@
 
     <!-- Custom CSS -->
     <link href="css/freelancer.css" rel="stylesheet">
+    <link href="css/v-offset.css" rel="stylesheet">
 
     <!-- Custom Fonts -->
     <link href="font-awesome-4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
@@ -54,10 +55,16 @@
                         <a href="#page-top"></a>
                     </li>
                     <li class="page-scroll">
+                        <a href="#about">About</a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#location">Location</a>
+                    </li>
+                    <li class="page-scroll">
                         <a href="#portfolio">Gallery</a>
                     </li>
                     <li class="page-scroll">
-                        <a href="#about">About</a>
+                        <a href="#features-and-services">Services</a>
                     </li>
                     <li class="page-scroll">
                         <a href="#contact">Contact</a>
@@ -77,13 +84,67 @@
                     <img class="img-responsive" src="http://i.imgur.com/FkJNnYk.jpg" alt="">
                     <div class="intro-text">
                         <span class="name">Because We Care</span>
+                        <span class="short-quote business-type">Residential Care Facility For the Elderly</span></br>
                         <hr class="star-light">
-                        <span class="short-quote">"A home away from home, for your loved ones"</span>
+                        <span class="short-quote">"A home away from home, for your loved one"</span>
+                        <div class="row">
+                            <div class="col-md-offset-2 col-md-8 admin-box">
+                                <div class="col-xs-6 v-offset-3">
+                                    <img src="http://i.imgur.com/wvvo0Ag.jpg" class="admin-image">
+                                </div>
+                                <div class="col-xs-6 v-offset-3 text-left">
+                                    <p>Licensed Administrator</p>
+                                    <p>License #: 197603600</p>
+                                    <p>Phone Number: (818)416-6583</p>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </header>
+    <section id="location">
+        <div class="row text-center">
+            <h1>Location</h1>
+            <hr class="star-primary">
+            <div class="col-md-6">
+                <img id="map-image" src="http://i.imgur.com/ojPhtie.png">
+            </div>
+            <div class="col-md-6 text-left" >
+                <p class="v-offset-12 address-details">15942 Bahama Street</p>
+                <p class="address-details">North Hills, 91343</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="success" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>About Us</h2>
+                    <hr class="star-light">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-lg-offset-2">
+                    <p>Here at <span class="emphasized-name">Because We Care</span>, we touch your loved one's life with love and care. We offer beautiful living quarters that are safe and healthy: along with 24 hour professional staff to care for individual needs.</p>
+                </div>
+                <div class="col-lg-4">
+                    <p>We provide a rich program that is incorporated with tender love. Our program aims to enable the residents to maintain the highest possible social, physical and emotional balance in a caring home environment.</p>
+                </div>
+            </div>
+
+            <div class="col-lg-8 col-lg-offset-2 text-center page-scroll">
+                <a href="#portfolio" class="btn btn-lg btn-outline">
+                    <i class="fa fa-download">
+                        See Pictures
+                    </i>
+                </a>
+            </div>
+        </div>
+    </section>
 
     <!-- Portfolio Grid Section -->
     <section id="portfolio">
@@ -159,29 +220,47 @@
         </div>
     </section>
 
-    <!-- About Section -->
-    <section class="success" id="about">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2>About</h2>
-                    <hr class="star-light">
-                </div>
+    <section class="success" id="features-and-services">
+        <div class="row text-center">
+            <div class="col-md-6">
+                <h1>Features</h1>
+                <hr class="star-light">
+                <ul>
+                    <li>Quality home furnishing and wide screen TV</li>
+                    <li>Spacious 5 bedrooms</li>
+                    <li>Large living room</li>
+                    <li>Formal dining table</li>
+                    <li>Great patio, big backyard, and garden</li>
+                </ul>
             </div>
-            <div class="row">
-                <div class="col-lg-4 col-lg-offset-2">
-                    <p>Here at <span class="emphasized-name">Because We Care</span>, we touch your loved one's life with love and care. We offer beautiful living quarters that are safe and healthy: along with 24 hour professional staff to care for individual needs.</p>
-                </div>
-                <div class="col-lg-4">
-                    <p>We provide a rich program that is incorporated with tender love. Our program aims to enable the residents to maintain the highest possible social, physical and emotional balance in a caring home environment.</p>
-                </div>
-                <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <a href="#" class="btn btn-lg btn-outline">
-                        <i class="fa fa-download"></i> Download Theme
-                    </a>
-                </div>
+            <div class="col-md-6">
+                <h1>Services</h1>
+                <hr class="star-light">
+                <ul>
+                    <li>24 hour care and supervision</li>
+                    <li>Three well-balanced meals and tasty snacks</li>
+                    <li>Prepare special diet</li>
+                    <li>Supervise medication</li>
+                    <li>Assistance in bathing, dressing, grooming, and toileting</li>
+                    <li>Conduct indoor and outdoor activities</li>
+                    <li>Arrange transportation for medical and dental appointments</li>
+                    <li>Retain qualified Home Health Care Provider</li>
+                    <li>Laundry clothes and housekeeping services</li>
+                </ul>
             </div>
         </div>
+
+        <div class="col-lg-8 col-lg-offset-2 text-center page-scroll">
+            <a href="#contact" class="btn btn-lg btn-outline">
+                <i class="fa fa-download">
+                    Contact Us
+                </i>
+            </a>
+        </div>
+    </section>
+
+    <section id="family-image">
+
     </section>
 
     <!-- Contact Section -->
