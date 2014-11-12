@@ -463,3 +463,20 @@ footer .footer-below {
 .admin-box {
   display: -webkit-inline-box;
 }
+
+#family-image {
+  padding: 325px 0;
+  background-image: url('http://i.imgur.com/p6PVINa.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+
+#features-and-services ul {
+  padding: 0;
+}
+
+#features-and-services li {
+  list-style-type: none;
+}
