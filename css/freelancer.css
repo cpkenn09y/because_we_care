@@ -479,4 +479,6 @@ footer .footer-below {
 
 #features-and-services li {
   list-style-type: none;
+  font-size: 1.2em;
+  margin-bottom: 0.5em;
 }
