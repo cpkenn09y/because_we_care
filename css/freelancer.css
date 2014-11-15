@@ -473,16 +473,6 @@ footer .footer-below {
   background-size: cover;
 }
 
-#features-and-services ul {
-  padding: 0;
-}
-
-#features-and-services li {
-  list-style-type: none;
-  font-size: 1.2em;
-  margin-bottom: 0.5em;
-}
-
 #location {
   background-color: aliceblue;
 }
@@ -505,3 +495,25 @@ footer .footer-below {
   font-size: 2.5em;
   margin-left: 25px;
 }
+
+i.service-icon {
+  border: 3px solid #ffffff;
+  border-radius: 50%;
+  display: inline-block;
+  font-size: 56px;
+  width: 140px;
+  height: 140px;
+  line-height: 136px;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.service-details {
+  text-align: left;
+}
+
+.service-details li {
+  font-size: 1.5em;
+}
+
+
